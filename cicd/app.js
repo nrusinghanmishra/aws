@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
     res.send('<h1>Express Demo App</h1> <h4>Message: Success</h4> <p>Version 1.4</p>');
   })
 
-app.get('products', (req, res) =>{
+app.get('/products', (req, res) =>{
     res.send(([
         {
             productid:100,
